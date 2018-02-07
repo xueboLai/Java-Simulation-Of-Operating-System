@@ -3,7 +3,7 @@
  * see the relation among process size, page size, program size, job mix, locality etc. 
  * in the context of using multiprogramming and demand paging. The basic idea is to have
  * a driver to create reference and then have the paging simulator to see whether the reference 
- * is a hit or a page fault. If it is a page fault, adapt certain replacement strategy accordingly.
+ * is a hit or a page fault. If it is a page fault, adopt certain replacement strategy accordingly.
  * here's the explanation of M,P,S,J,N,R shown below:
  * M the mahicne size in words;
  * P the page size in words;
